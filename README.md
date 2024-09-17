@@ -1,6 +1,6 @@
 # Clipboard Utils: `ccopy` and `cpaste`
 
-[![Go Version](https://img.shields.io/github/go-mod/go-version/clipboard-utils)](https://golang.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Go Version](https://img.shields.io/github/go-mod/go-version/kmaneshk/clipboard-utils)](https://golang.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 `Clipboard Utils` provides two simple command-line utilities for Windows, `ccopy` and `cpaste`, that allow users to copy text to and paste text from the system clipboard directly from the terminal. Inspired by macOS's `pbcopy` and `pbpaste`, these tools are useful for users who want to interact with the clipboard programmatically in their workflows.
 
