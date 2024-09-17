@@ -1,7 +1,3 @@
-Here’s a detailed `README.md` file for your `ccopy` and `cpaste` project, following best practices commonly seen in open-source projects on GitHub. This includes a project overview, installation instructions, usage examples, contributing guidelines, and licensing.
-
----
-
 # Clipboard Utils: `ccopy` and `cpaste`
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/clipboard-utils)](https://golang.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
