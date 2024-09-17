@@ -214,11 +214,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [atotto/clipboard](https://github.com/atotto/clipboard) – The Go clipboard library used in this project.
 
 ---
-
-## Contact
-
-If you have any questions or issues, feel free to open an issue or contact the project maintainer at your-email@example.com.
-
----
-
-With this detailed `README.md`, your project will look professional and follow the conventions commonly seen in open-source repositories on GitHub. It provides clear instructions, usage examples, and guidelines for contributors, ensuring a smooth onboarding process for users and developers alike.
