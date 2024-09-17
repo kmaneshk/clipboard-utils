@@ -21,7 +21,7 @@ func main() {
 	clear := flag.Bool("clear", false, "Clear the clipboard after pasting")
 	file := flag.String("file", "", "Output clipboard contents to a file")
 	jsonFormat := flag.Bool("json", false, "Treat clipboard contents as JSON and pretty-print it")
-	silent := flag.Bool("silent", false, "Suppress output messages")
+	//silent := flag.Bool("silent", false, "Suppress output messages")
 	flag.Parse()
 
 	if *help {
@@ -87,9 +87,9 @@ func main() {
 	}
 
 	// Print confirmation if not in silent mode
-	if !*silent && *file == "" {
-		fmt.Println("Text pasted from clipboard.")
-	}
+	//if !*silent && *file == "" {
+	//	fmt.Println("Text pasted from clipboard.")
+	//}
 }
 
 // usage function to display help text
@@ -108,8 +108,7 @@ Options:
   --length <N>     Limit the number of characters pasted.
   --clear          Clear the clipboard after pasting.
   --file <file>    Output clipboard contents to a file.
-  --json           Treat clipboard contents as JSON and pretty-print it.
-  --silent         Suppress output messages.
+  --json           Treat clipboard contents as JSON and pretty-print it.  
 
 Examples:
   cpaste --trim

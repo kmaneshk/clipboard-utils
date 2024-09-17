@@ -43,10 +43,10 @@ Run the following commands to build the utilities:
 
 ```bash
 # Build ccopy
-go build -o ccopy cmd/ccopy/main.go
+go build -o ccopy.exe cmd/ccopy/main.go
 
 # Build cpaste
-go build -o cpaste cmd/cpaste/main.go
+go build -o cpaste.exe cmd/cpaste/main.go
 ```
 
 Move the executables to a directory in your system's `PATH` (e.g., `C:\Go\bin` or another folder in your `PATH`), or update your `PATH` environment variable to include the directory where these executables are built.
